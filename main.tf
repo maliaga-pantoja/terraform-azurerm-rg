@@ -1,4 +1,3 @@
-resource "azurerm_resource_group" "example" {
-  name     = var.name
-  location = "eastus2"
+resource "null_resource" "cluster" {
+
 }
